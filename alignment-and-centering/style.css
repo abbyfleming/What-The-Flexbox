@@ -33,15 +33,24 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
   display:flex;
-  justify-content: center;  /*default: flex-start */
   border: 10px solid mistyrose;
-  /*flex-direction: column; /* top to bottom  */
-  /*min-height: 100vh;*/
   height: 100vh;
-  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .box {
   width: 33.333%;
+}
 
+.box2 {
+  padding-bottom: 200px;
+}
+
+.box6 {
+  padding-bottom: 0;
+}
+
+.box9 {
+  padding-bottom: 50px;
+  align-self: flex-end;
 }
